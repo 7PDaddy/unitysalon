@@ -68,4 +68,5 @@ Posts (14, 2020-06 to 2026-05)
 
 - Link check, image check, Lighthouse. Ahrefs crawl before and after DNS switch.
 - Confirm the two Site Kit 404 JS files are gone.
+- Delete the noindex rule in `public/_headers`, replace the temporary homepage, and remove `public/design/`.
 - Tamekia sign-off on a Cloudflare preview URL.

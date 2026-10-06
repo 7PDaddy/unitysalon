@@ -1,0 +1,3 @@
+# Keep the review site out of search until cutover. Delete this rule when unity.salon points here.
+/*
+  X-Robots-Tag: noindex

@@ -25,7 +25,8 @@ Rebuild of the WordPress site in Astro. Read `docs/handoff.md` for background an
 
 - `src/layouts/Layout.astro`: shared shell. Site-wide scripts go here once.
 - `src/pages/`: one folder per WordPress URL, same slug.
-- `design/`: homepage design drafts for Tamekia (not built or deployed).
+- `public/design/`: homepage design drafts for Tamekia, linked from the temporary homepage. Served at /design/example-1-bold etc.
+- `public/_headers`: sitewide noindex during review. Remove at cutover.
 - `scripts/wp-pull.mjs`: re-pulls content, live HTML, and uploads from the WordPress site.
 - `docs/`: handoff, URL inventory, WordPress snapshot.
 

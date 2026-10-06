@@ -1,0 +1,350 @@
+[
+  {
+    "id": 7,
+    "count": 4,
+    "description": "",
+    "link": "https://unity.salon/category/services/",
+    "name": "Services",
+    "slug": "services",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Services Archives - Unity Salon</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Services Archives - Unity Salon\" />\n<meta property=\"og:url\" content=\"https://unity.salon/category/uncategorized/services/\" />\n<meta property=\"og:site_name\" content=\"Unity Salon\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/unity.salon\\/category\\/uncategorized\\/services\\/\",\"url\":\"https:\\/\\/unity.salon\\/category\\/uncategorized\\/services\\/\",\"name\":\"Services Archives - Unity Salon\",\"isPartOf\":{\"@id\":\"https:\\/\\/unity.salon\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/unity.salon\\/category\\/uncategorized\\/services\\/#breadcrumb\"},\"inLanguage\":\"en\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/unity.salon\\/category\\/uncategorized\\/services\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/unity.salon\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Services\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/unity.salon\\/#website\",\"url\":\"https:\\/\\/unity.salon\\/\",\"name\":\"Unity Salon\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/unity.salon\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Services Archives - Unity Salon",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Services Archives - Unity Salon",
+      "og_url": "https://unity.salon/category/uncategorized/services/",
+      "og_site_name": "Unity Salon",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://unity.salon/category/uncategorized/services/",
+            "url": "https://unity.salon/category/uncategorized/services/",
+            "name": "Services Archives - Unity Salon",
+            "isPartOf": {
+              "@id": "https://unity.salon/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://unity.salon/category/uncategorized/services/#breadcrumb"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://unity.salon/category/uncategorized/services/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://unity.salon/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://unity.salon/#website",
+            "url": "https://unity.salon/",
+            "name": "Unity Salon",
+            "description": "",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://unity.salon/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en"
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/categories/7",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/posts?categories=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "count": 8,
+    "description": "",
+    "link": "https://unity.salon/category/striving-for-unity/",
+    "name": "Striving for Unity",
+    "slug": "striving-for-unity",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Striving for Unity Archives - Unity Salon</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Striving for Unity Archives - Unity Salon\" />\n<meta property=\"og:url\" content=\"https://unity.salon/category/striving-for-unity/\" />\n<meta property=\"og:site_name\" content=\"Unity Salon\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/unity.salon\\/category\\/striving-for-unity\\/\",\"url\":\"https:\\/\\/unity.salon\\/category\\/striving-for-unity\\/\",\"name\":\"Striving for Unity Archives - Unity Salon\",\"isPartOf\":{\"@id\":\"https:\\/\\/unity.salon\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/unity.salon\\/category\\/striving-for-unity\\/#breadcrumb\"},\"inLanguage\":\"en\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/unity.salon\\/category\\/striving-for-unity\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/unity.salon\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Striving for Unity\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/unity.salon\\/#website\",\"url\":\"https:\\/\\/unity.salon\\/\",\"name\":\"Unity Salon\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/unity.salon\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Striving for Unity Archives - Unity Salon",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Striving for Unity Archives - Unity Salon",
+      "og_url": "https://unity.salon/category/striving-for-unity/",
+      "og_site_name": "Unity Salon",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://unity.salon/category/striving-for-unity/",
+            "url": "https://unity.salon/category/striving-for-unity/",
+            "name": "Striving for Unity Archives - Unity Salon",
+            "isPartOf": {
+              "@id": "https://unity.salon/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://unity.salon/category/striving-for-unity/#breadcrumb"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://unity.salon/category/striving-for-unity/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://unity.salon/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Striving for Unity"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://unity.salon/#website",
+            "url": "https://unity.salon/",
+            "name": "Unity Salon",
+            "description": "",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://unity.salon/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en"
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/categories/5",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/posts?categories=5"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "count": 3,
+    "description": "",
+    "link": "https://unity.salon/category/types-of-hair/",
+    "name": "Types of Hair",
+    "slug": "types-of-hair",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Types of Hair Archives - Unity Salon</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Types of Hair Archives - Unity Salon\" />\n<meta property=\"og:url\" content=\"https://unity.salon/category/types-of-hair/\" />\n<meta property=\"og:site_name\" content=\"Unity Salon\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/unity.salon\\/category\\/types-of-hair\\/\",\"url\":\"https:\\/\\/unity.salon\\/category\\/types-of-hair\\/\",\"name\":\"Types of Hair Archives - Unity Salon\",\"isPartOf\":{\"@id\":\"https:\\/\\/unity.salon\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/unity.salon\\/category\\/types-of-hair\\/#breadcrumb\"},\"inLanguage\":\"en\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/unity.salon\\/category\\/types-of-hair\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/unity.salon\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Types of Hair\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/unity.salon\\/#website\",\"url\":\"https:\\/\\/unity.salon\\/\",\"name\":\"Unity Salon\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/unity.salon\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Types of Hair Archives - Unity Salon",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Types of Hair Archives - Unity Salon",
+      "og_url": "https://unity.salon/category/types-of-hair/",
+      "og_site_name": "Unity Salon",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://unity.salon/category/types-of-hair/",
+            "url": "https://unity.salon/category/types-of-hair/",
+            "name": "Types of Hair Archives - Unity Salon",
+            "isPartOf": {
+              "@id": "https://unity.salon/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://unity.salon/category/types-of-hair/#breadcrumb"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://unity.salon/category/types-of-hair/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://unity.salon/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Types of Hair"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://unity.salon/#website",
+            "url": "https://unity.salon/",
+            "name": "Unity Salon",
+            "description": "",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://unity.salon/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en"
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/categories/6",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://unity.salon/wp-json/wp/v2/posts?categories=6"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unity Salon | Hair Salon in Norterra, Phoenix AZ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#17231E;
+    --emerald:#1D4B3E;
+    --emerald-deep:#123028;
+    --umber:#2A1C10;
+    --gold:#C9A24B;
+    --cream:#FBF3E7;
+    --paper:#FFFFFF;
+    --max:1160px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} *{animation:none !important; transition:none !important;} }
+
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    font-size:17px;
+    line-height:1.6;
+  }
+  h1,h2,h3{
+    font-family:'Bricolage Grotesque', sans-serif;
+    font-weight:600;
+    line-height:1.04;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  a{color:inherit;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 28px;}
+  :focus-visible{outline:3px solid var(--gold); outline-offset:3px;}
+
+  /* ---- header ---- */
+  header{padding:22px 0; background:var(--cream);}
+  .header-row{display:flex; align-items:center; justify-content:space-between; gap:24px;}
+  .logo{display:flex; align-items:center; gap:12px; text-decoration:none;}
+  .logo img{height:38px; width:auto; border-radius:50%;}
+  .logo span{font-family:'Bricolage Grotesque', sans-serif; font-weight:800; font-size:1.2rem; color:var(--ink);}
+  nav{display:flex; gap:28px; font-size:0.95rem; font-weight:500;}
+  nav a{text-decoration:none; color:var(--ink);}
+  nav a:hover{color:var(--emerald-deep);}
+
+  .btn{
+    display:inline-block;
+    background:var(--ink);
+    color:var(--cream);
+    text-decoration:none;
+    font-weight:700;
+    font-size:0.98rem;
+    padding:15px 32px;
+    border-radius:100px;
+  }
+  .btn:hover{background:var(--emerald-deep); color:#fff;}
+  .btn-gold{background:var(--gold); color:var(--ink);}
+  .btn-gold:hover{background:#ffbf5c;}
+
+  /* ---- hero ---- */
+  .hero{background:var(--emerald); color:#fff; padding:0; position:relative; overflow:hidden;}
+  .hero-grid{
+    display:grid; grid-template-columns:1.1fr 0.9fr; gap:0; align-items:stretch;
+    max-width:var(--max); margin:0 auto;
+  }
+  .hero-copy{padding:100px 28px 90px 28px; display:flex; flex-direction:column; justify-content:center;}
+  .hero-tag{
+    display:inline-block; background:var(--ink); color:var(--gold);
+    font-weight:700; font-size:0.85rem; padding:7px 16px; border-radius:100px;
+    margin-bottom:22px; width:fit-content;
+  }
+  .hero h1{font-size:clamp(3rem, 6.5vw, 5.4rem); color:#fff;}
+  .hero h1 em{font-style:normal; color:var(--gold);}
+  .hero p{max-width:38ch; margin:24px 0 32px; font-size:1.15rem; color:#fff; opacity:0.94;}
+  .hero-actions{display:flex; gap:14px; flex-wrap:wrap;}
+
+  .hero-photo{position:relative; padding:40px 28px 0 0;}
+  .hero-photo .frame{
+    border-radius: 280px 280px 24px 24px;
+    overflow:hidden; height:100%; min-height:460px; background:var(--umber);
+  }
+  .hero-photo img{width:100%; height:100%; object-fit:cover;}
+
+  /* ---- section basics ---- */
+  section{padding:80px 0;}
+  .section-head{max-width:56ch; margin-bottom:44px;}
+  .section-head h2{font-size:clamp(2rem, 3.6vw, 3rem);}
+  .section-head p{margin:16px 0 0; opacity:0.75; font-size:1.08rem;}
+
+  /* ---- intro ---- */
+  .intro .wrap{max-width:800px;}
+  .intro p{font-size:1.4rem; line-height:1.5; font-weight:500;}
+  .intro p .mark{background:var(--gold); padding:2px 6px;}
+
+  /* ---- bio ---- */
+  .bio{background:var(--umber); color:#fff;}
+  .bio-grid{display:grid; grid-template-columns:0.8fr 1.2fr; gap:56px; align-items:center;}
+  .bio-photo .frame{
+    border-radius: 32px 220px 32px 220px;
+    aspect-ratio:1/1; background:var(--emerald);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .bio-photo .frame span{font-family:'Bricolage Grotesque',sans-serif; font-size:7rem; font-weight:800; color:var(--gold);}
+  .bio-label{color:var(--gold); font-weight:700; margin-bottom:8px; font-size:1rem;}
+  .bio h2{font-size:clamp(2rem, 3.6vw, 3rem); color:#fff; margin-bottom:18px;}
+  .bio p{opacity:0.9; font-size:1.08rem;}
+  .bio .follow{display:inline-flex; align-items:center; gap:8px; margin-top:20px; text-decoration:none; font-weight:700; color:var(--gold); font-size:0.98rem;}
+
+  /* ---- services ---- */
+  .service-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+  .service{padding:38px 30px; border-radius:20px; color:#fff;}
+  .service:nth-child(1){background:var(--emerald);}
+  .service:nth-child(2){background:var(--ink);}
+  .service:nth-child(3){background:var(--umber);}
+  .service h3{font-size:1.5rem; margin-bottom:14px; color:var(--gold);}
+  .service p{margin:0; opacity:0.92; font-size:0.98rem;}
+
+  /* ---- blog ---- */
+  .blog-list{display:grid; gap:18px;}
+  .blog-row{
+    display:grid; grid-template-columns:220px 1fr; gap:30px;
+    padding:24px; border-radius:20px; background:var(--paper);
+    text-decoration:none; align-items:center;
+  }
+  .blog-row img{width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:14px;}
+  .blog-row .no-img{
+    width:100%; aspect-ratio:4/3; border-radius:14px; background:var(--gold);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .blog-row .no-img span{font-family:'Bricolage Grotesque',sans-serif; font-weight:800; color:var(--ink); font-size:1.1rem;}
+  .blog-meta{display:inline-block; background:var(--cream); font-size:0.8rem; font-weight:700; padding:5px 12px; border-radius:100px; margin-bottom:10px;}
+  .blog-row h3{font-size:1.4rem; color:var(--ink); margin-bottom:8px;}
+  .blog-row p{margin:0; opacity:0.72; font-size:0.96rem;}
+
+  /* ---- cta band ---- */
+  .cta-band{background:var(--ink); color:var(--cream);}
+  .cta-band .wrap{display:grid; grid-template-columns:1.2fr 1fr; gap:40px; align-items:center;}
+  .cta-band h2{color:#fff; font-size:clamp(2rem,3.6vw,3rem);}
+  .cta-band .addr{font-size:1.02rem; opacity:0.85; line-height:1.75;}
+  .cta-band .addr strong{display:block; color:var(--gold); font-family:'Bricolage Grotesque', sans-serif; font-weight:700; font-size:1.2rem; margin-bottom:8px;}
+  .cta-band .phone{margin-top:16px; display:block; font-size:1.15rem; text-decoration:none; color:var(--emerald);}
+
+  /* ---- reviews ---- */
+  .reviews .wrap{max-width:760px;}
+  .reviews p{font-size:1.1rem; opacity:0.82;}
+  .reviews a{color:var(--emerald-deep); font-weight:700; text-decoration:underline;}
+
+  footer{
+    padding:34px 0; font-size:0.9rem; opacity:0.7;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  footer a{text-decoration:none;}
+
+  @media (max-width:860px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero-photo{padding:0 28px 40px 28px;}
+    .hero-photo .frame{min-height:320px;}
+    .bio-grid{grid-template-columns:1fr;}
+    .service-grid{grid-template-columns:1fr;}
+    .cta-band .wrap{grid-template-columns:1fr;}
+    .blog-row{grid-template-columns:100px 1fr; padding:16px; gap:18px;}
+    nav{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-row">
+    <a class="logo" href="#">
+      <img src="images/logo.png" onerror="this.onerror=null;this.src='https://unity.salon/wp-content/uploads/2020/06/Hair-Tails_F_100px.png'" alt="Unity Salon">
+      <span>Unity Salon</span>
+    </a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#blog">News &amp; Trends</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="btn btn-gold" style="padding:12px 24px; font-size:0.9rem;" href="https://square.site/book/8NQGT66XBGYNH/unity-salon-phoenix-az">Book Now</a>
+  </div>
+</header>
+
+<section class="hero" style="padding:0;">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <span class="hero-tag">Norterra · Phoenix, AZ</span>
+      <h1>Be<br><em>Beautiful.</em></h1>
+      <p>Curly cuts, color, and extensions from a stylist who's spent 25 years learning that every texture deserves to be understood, not managed.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="https://square.site/book/8NQGT66XBGYNH/unity-salon-phoenix-az">Book Now</a>
+        <a class="btn" style="background:transparent; border:2px solid #fff;" href="#about">Meet Tamekia</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="frame">
+        <img src="images/hero-curly.jpg" onerror="this.onerror=null;this.src='https://unity.salon/wp-content/uploads/2020/06/Girl-With-Curly-Hair-2.jpg'" alt="Client with natural curls styled at Unity Salon">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="wrap">
+    <p>Think beautiful, be beautiful. We take the time to understand your hair <span class="mark">before we touch it</span>, so what you leave with actually reflects you, not a trend.</p>
+  </div>
+</section>
+
+<section class="bio" id="about">
+  <div class="wrap bio-grid">
+    <div class="bio-photo">
+      <div class="frame"><span>T</span></div>
+    </div>
+    <div>
+      <div class="bio-label">Hello, I'm</div>
+      <h2>Tamekia</h2>
+      <p>A licensed hair stylist for over 25 years, and an educator at Penrose Academy, one of Scottsdale's most respected schools. She's been doing hair extensions for over 20 years, from hand-tied wefts to tape-ins, sew-ins, and cylinders, and specializes in DevaCurl cuts and color for every texture.</p>
+      <a class="follow" href="https://www.instagram.com/tamekiaokagu/">Follow @tamekiaokagu on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What Unity Salon offers</h2>
+      <p>Three areas of focus, each built around understanding your hair first.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service">
+        <h3>Extensions</h3>
+        <p>Hand-tied wefts, tape-ins, sew-ins, and cylinders. Over 20 years finding the right technique for your texture and goals.</p>
+      </div>
+      <div class="service">
+        <h3>Haircuts</h3>
+        <p>DevaCurl specialty cuts for natural texture, custom cuts for personal style, and a welcoming space for men's and kids' cuts too.</p>
+      </div>
+      <div class="service">
+        <h3>Color</h3>
+        <p>Hand painting, foiling, balayage, and precision retouches, across a wide range of textures and starting colors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blog">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What's going on</h2>
+      <p>News, hair tips, and trends from the chair.</p>
+    </div>
+    <div class="blog-list">
+      <a class="blog-row" href="https://unity.salon/striving-for-unity/introducing-braidful-event-braiding-unity-salon/">
+        <img src="images/braidful.jpg" onerror="this.onerror=null;this.src='https://unity.salon/wp-content/uploads/2026/04/country-thunder-e1778376194327-1080x675.jpg'" alt="Braidful event braiding">
+        <div>
+          <span class="blog-meta">May 10, 2026</span>
+          <h3>Introducing Braidful | Event Braiding by Unity Salon</h3>
+          <p>A new braiding brand from Unity Salon, built for festivals, pop-ups, resort events, and moments where hair should feel like part of the experience.</p>
+        </div>
+      </a>
+      <a class="blog-row" href="https://unity.salon/striving-for-unity/spring-hair-extensions-norterra-phoenix/">
+        <div class="no-img"><span>Unity</span></div>
+        <div>
+          <span class="blog-meta">Feb 23, 2026</span>
+          <h3>Spring Hair Extensions at Norterra | Unity Salon Refresh</h3>
+          <p>Phoenix's short window of perfect weather is the best time to refresh your look before the heat hits.</p>
+        </div>
+      </a>
+      <a class="blog-row" href="https://unity.salon/services/back-to-school-haircuts-norterra/">
+        <div class="no-img"><span>Unity</span></div>
+        <div>
+          <span class="blog-meta">Jul 27, 2025</span>
+          <h3>Back to School Already? Let's Get Haircut Ready</h3>
+          <p>Deer Valley schools start earlier every year. Here's how to get back to school haircuts booked in Norterra before the rush.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="visit">
+  <div class="wrap">
+    <div>
+      <h2>Want to schedule an appointment?</h2>
+      <a class="btn btn-gold" style="margin-top:24px;" href="https://square.site/book/8NQGT66XBGYNH/unity-salon-phoenix-az">Book Now</a>
+    </div>
+    <div class="addr">
+      <strong>Unity Salon at The Beauty District</strong>
+      Suite #101, inside The Shops at Norterra<br>
+      2480 W Happy Valley Rd, Suite #1205<br>
+      Phoenix, AZ 85085
+      <a class="phone" href="tel:6232035863">(623) 203-5863</a>
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <div class="wrap">
+    <p>Unity Salon has become a trusted hair salon in Norterra Phoenix, thanks to the care clients experience at every visit, from a first haircut before an 8th grade dance to a full curly hair transformation. Clients describe Tamekia as professional, knowledgeable, and someone who truly listens.</p>
+    <p><a href="https://g.co/kgs/mxfft4Z">Read more Google reviews</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
+    <span>© Unity Salon 2026</span>
+    <a href="https://www.instagram.com/the_hairmom/">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>
